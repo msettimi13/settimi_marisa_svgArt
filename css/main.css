@@ -1,0 +1,79 @@
+h1 {
+	font-family: Geneva;
+	font-size: 60px;
+	color: red;
+	margin-left: 60px;
+}
+
+p {
+	font-family: Geneva;
+	font-size: 20px;
+	align-items: center;
+	padding: 10px;
+}
+
+#containerBig {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #92929;
+	width: 1000px;
+	background-color: #efefef;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	justify-content: space-around;
+	padding-bottom: 75px;
+	padding-top: 75px
+}
+
+.img-wrapper {
+  display: block;
+  width: 20%; 
+}
+
+.selected {
+	transform: scale(0.5) translate(-100%, -100%);
+}
+
+svg:hover , img:hover {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+#canvas:hover #canvasboard:hover {
+  fill: #17D1E5;
+}
+
+
+#microphone:hover #body:hover {
+  fill: red;
+}
+
+#paintbrush:hover #paint:hover {
+  fill: blue;
+}
+
+#pencil:hover #pencilbody:hover {
+  fill: #FCCD06;
+}
+
+#moviecamera:hover #body:hover {
+	fill: green;
+}
+
+#musicnotes:hover #twonotes:hover {
+	fill: #D31DD8; 
+}
+
+#clapper:hover {
+	fill: white
+}
+
